@@ -14,7 +14,7 @@ python3.10 -m venv venv
 # For Ubuntu:
 ./venv/bin/activate
 
-# install required packages with pip(Make sure the virtual environment is activated):
+# install required packages with pip (Make sure the virtual environment is activated):
 ![image](https://user-images.githubusercontent.com/52719165/165802979-523b41e7-8b46-4e83-a818-6852c4e91db8.png)
 
 pip install -r requirements.txt
