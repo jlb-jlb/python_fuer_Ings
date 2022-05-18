@@ -28,7 +28,9 @@ Homework für das Modul Python für Ingenieure an der TU Berlin
 </table>
 </div>
 <div><p>Install required packages with pip (Make sure the virtual environment is activated):</p>
-![image](https://user-images.githubusercontent.com/52719165/165802979-523b41e7-8b46-4e83-a818-6852c4e91db8.png)
+</div>
 
-<p><code>pip install -r requirements.txt</code></p>
+![image](https://user-images.githubusercontent.com/52719165/165802979-523b41e7-8b46-4e83-a818-6852c4e91db8.png)
+<div>
+<p>RUN <code>pip install -r requirements.txt</code></p>
 </div>
