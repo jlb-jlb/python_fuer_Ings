@@ -1,22 +1,36 @@
-# python_fuer_Ings
-
+<h2>python_fuer_Ings </h2>
+<p>
 Homework für das Modul Python für Ingenieure an der TU Berlin
+</p>
+
+<p>Initialize in Work-dir with:</p>
 
 
-# Initialize in Work-dir with:
-# Windows:
-python -m venv venv
-# Ubuntu (Change to python version you are using):
-python3.10 -m venv venv 
+<div>
+<table>
+<tr>
+<td>Windows:</td><td><code>python -m venv venv</code></td>
+</tr>
+<tr>
+<td>Ubuntu (Change to python version you are using):</td><td><code>python3.10 -m venv venv </code></td>
+</tr>
+</table>
+</div>
+<div>
+<p>Activate Virtual Environment:</p>
+<table>
+<tr>
+<td>Windows:</td><td><code>.\venv\Scripts\activate.ps1</code></td>
+</tr>
+<tr>
+<td>Ubuntu:</td><td><code>./venv/bin/activate</code></td>
+</tr>
+</table>
+</div>
+<div><p>Install required packages with pip (Make sure the virtual environment is activated):</p>
+</div>
 
-# For Windows:
-.\venv\Scripts\activate.ps1
-# For Ubuntu:
-./venv/bin/activate
-
-# install required packages with pip (Make sure the virtual environment is activated):
 ![image](https://user-images.githubusercontent.com/52719165/165802979-523b41e7-8b46-4e83-a818-6852c4e91db8.png)
-
-pip install -r requirements.txt
-
-
+<div>
+<p>RUN <code>pip install -r requirements.txt</code></p>
+</div>
