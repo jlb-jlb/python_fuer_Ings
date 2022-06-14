@@ -1,0 +1,41 @@
+1.2) 
+- die Aufgabenstellung ist verschwunden. ( aber das ist nicht wichtig :))
+
+- "Schreiben Sie eine Funktion, die die x- und y-Ausdehnung übergeben wird und die mit dem Befehl plot() eine Rechteckumrandung zeichnet."
+
+	=> das bedeutet, Plot-Zeilen muss innerhalb der "def Rechteck" sein?
+
+- Der Kreis muss immer im Rechteck sein, und die folgende sind nötig?
+
+    # compare max values with kreis values
+    rechteck_xmax = np.maximum(kreis_xmax, xmax) 
+    rechteck_xmin = np.minimum(kreis_xmin, xmin)
+    rechteck_ymax = np.maximum(kreis_ymax, ymax)
+    rechteck_ymin = np.minimum(kreis_ymin, ymin)
+    
+1.3)
+
+- kürzere version mit nur zwei kurzen Zeilen
+
+bedingung = (x > x_low) & (x < x_high) & (y > y_low)
+Anzahl = np.sum(bedingung)
+
+- Anzahl der Punkte (=516) soll per print() zeigen?
+
+
+- code für plot von zweites Bild ist fast gleich wie erste => def ?
+
+- letzte zwei Graphen sind nötig?
+
+2.1)
+- die Graphen verbessern : Duplikat korrigieren
+
+2.2)
+- geschw_xy = np.sqrt(geschw_xy[0]**2 + geschw_xy[1]**2)
+=> np.linalg.norm(uvw, axis=1)
+
+3.1)
+"Tragen Sie im Parameter extent den tatsächlichen Umfang des Gitters ein."
+=> imshow(    ,extent=   )
+
+
